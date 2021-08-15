@@ -1,0 +1,26 @@
+import java.util.Scanner;
+import java.util.List;
+import java.util.ArrayList;
+
+public class Evento{ 
+  public static final Arraylist <Persona> personas = new Arraylist<>();
+ 
+  public static void main(String[] args) {
+    procesarcomando();
+  }
+
+  public static void agregarParticpante (Persona persona){
+    personas.add (persona);
+  }
+
+  public static Arraylist obtenerParticipantes (){
+    return personas;
+  }
+  public static void procesarComando (){
+    Scanner scaner = new Scanner(System.in);
+    int comando = 0;
+    while (comando != 4){
+      String line = scan.nextLine();
+    }
+  }
+  }
